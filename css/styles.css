@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+    --dark-blue:#102A42;
+    --gray: #617D98;
+    --light-blue: #49A6E9;
+    --very-brillant-blue: hsl(205, 90%, 88%);
+    --very-light-blue: #F1F5F8;
+    --white: #FFFFFF;
+}
+
+body{
+    background: var(--very-light-blue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.main__title{
+    color: var(--dark_blue);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.main__sub{
+    align-self: center;
+    border: 2px solid var(--light-blue);
+    display: flex;
+    justify-self: center;
+    margin-bottom: 2rem;
+    width: 5%;
+}
+
+.card{
+    background: var(--white);
+    border-radius: 1rem;
+    width: 50%;
+    text-align: center;
+    padding: 2rem;
+    -webkit-box-shadow: 10px 10px 40px -11px rgba(0,0,0,0.27);
+    -moz-box-shadow: 10px 10px 40px -11px rgba(0,0,0,0.27);
+    box-shadow: 10px 10px 40px -11px rgba(0,0,0,0.27);
+}
+
+.card__img{
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+
+.card__data{
+    line-height: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card__name{
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.card__job{
+    color: var(--light-blue);
+    font-weight: 600;
+}
+
+.card__description{
+    color: var(--gray);
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.buttons__chevron{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.button__left, .button__right{
+    color: var(--very-brillant-blue);
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin: 0 1rem 1rem 1rem;
+    transition: 0.3s;
+}
+
+.button__left:hover{
+    color: var(--light-blue);
+}
+
+.button__right:hover{
+    color: var(--light-blue);
+}
+
+.button__surprise{
+    border: 2px solid var(--light-blue);
+    border-radius: 0.5rem;
+    color: var(--light-blue);
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.5rem;
+}
+
+.button__surprise:hover{
+    background: var(--light-blue);
+    color: var(--white);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .main__sub{
+        width: 10%;
+    }
+    .card{
+        border-radius: 1rem;
+        width: 85%;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .main__title{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .main__sub{
+        width: 10%;
+    }
+
+    .card{
+        width: 85%;
+        margin-bottom: 1rem;
+    }
+
+    .card__name{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    
+    .card__job{
+        font-weight: 500;
+    }
+    
+    .card__description{
+        line-height: 1.3rem;
+        margin-bottom: 1rem;
+    }
+}
