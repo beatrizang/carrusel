@@ -31,7 +31,7 @@
 ### Links
 
 - Challenge URL: https://tinyurl.com/y2yb3vb5
-- Live Site URL: https://beatrizang.github.io/counter/
+- Live Site URL: https://classy-melba-5e67a0.netlify.app/
 
 ### Built with
 
