@@ -1,4 +1,4 @@
-# Counter
+# Carrusel
 
 
 ## Table of contents
@@ -14,18 +14,11 @@
 
 ### The challenge
 
- Increase, reset or decrease the count by clicking the buttons.
+ Change people data by clicking next ot previous
 
 ### Screenshots
 
-![](./images/screen1.png)
-
-
-![](./images/screen2.png)
-
-
-
-![](./images/screen3.png)
+![](./images/screen/screen1.png)
 
 
 ### Links
